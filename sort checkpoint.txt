@@ -1,0 +1,20 @@
+ALGORITHM sorting
+VAR
+    array_a : ARRAY_OF integer[];
+    
+    i: integer
+
+BEGIN
+FOR i FROM 1 TO length STEP 1  DO
+value:=a[i]
+indx:=i
+WHILE (i>0 && a[i-1]>value) DO
+    a[i-1]=value
+    indx=index+1
+    
+END_WHILE
+a [index+1]=value
+
+END_FOR
+
+END
